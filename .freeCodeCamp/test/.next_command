@@ -321,3 +321,6 @@ psql -U postgres < worldcup.sql
 ./insert_data.sh
 psql --username=freecodecamp --dbname=postgres
 ./queries.sh
+git remote set-url origin https://github.com/HectorGuePra/World-Cup-Database
+git branch -M main
+git push -u origin main
